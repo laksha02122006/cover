@@ -32,22 +32,89 @@ Publish the website in the LocalHost.
 
 ## PROGRAM:
 
+~~~
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Book Cover</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: 'Georgia', serif;
+    }
 
-![Screenshot 2025-04-25 175448](https://github.com/user-attachments/assets/e41c4013-5f50-402d-9646-1c7ae0a70afa)
+    .book-cover {
+      width: 400px;
+      height: 600px;
+      background: palevioletred;
+      border: 2px solid #333;
+      padding: 40px 30px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+.title {
+      font-size: 28px;
+      font-weight: bold;
+      color: #2e2e2e;
+      text-align: center;
+      line-height: 1.3;
+    }
 
+    .subtitle {
+      font-size: 16px;
+      margin-top: 10px;
+      text-align: center;
+      font-style: italic;
+    }
 
-![Screenshot 2025-04-25 175528](https://github.com/user-attachments/assets/8630d3e2-936f-4073-9bd8-e6511b148354)
+    .image {
+      flex: 1;
+      background: url('https://upload.wikimedia.org/wikipedia/commons/6/65/Simple_flowers_black_line_art.png') center/contain no-repeat;
+      margin: 30px 0;
+    }
 
+    .author {
+      font-size: 18px;
+      text-align: center;
+      color: #444;
+      margin-top: 20px;
+    }
 
-![Screenshot 2025-04-25 175600](https://github.com/user-attachments/assets/0773b08f-6632-45f3-9eac-72868b846698)
-
-
-![Screenshot 2025-04-25 175629](https://github.com/user-attachments/assets/caf262fb-f4dd-4dfc-9567-8e73d8f1d7f9)
-
+    .line {
+      height: 2px;
+      background: #333;
+      width: 50px;
+      margin: 10px auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="book-cover">
+    <div>
+      <div class="title">The Psychology of Simplicity</div>
+      <div class="line"></div>
+      <div class="subtitle">Understanding the beauty of less</div>
+    </div>
+    <div class="image">
+        <img src="https://img.freepik.com/free-vector/flat-world-mental-health-day-background_23-2149634438.jpg?t=st=1744720480~exp=1744724080~hmac=f1760139b6a1644521a6843c7039f2b45bdc688d25f4f3a479e1d59dcfad5515&w=1380" length="10%" width="100%">
+    </div>
+    <div class="author">By Morgan Simplar</div>
+  </div>
+</body>
+</html>
+~~~
 ## OUTPUT:
 
-
-![image](https://github.com/user-attachments/assets/fd247630-45d9-48b6-a052-bb3bb903cdde)
+![Screenshot 2025-05-06 112141](https://github.com/user-attachments/assets/f6479e37-161c-4b7d-bcb4-3ca908e53fac)
 
 
 
