@@ -1,6 +1,10 @@
 # Ex.06 Book Front Cover Page Design
 ## Date: 14/5/25
 
+Name:-V.B.Laksha
+
+Reg.no:- 212224220051
+
 ## AIM:
 To design a book front cover page using HTML and CSS.
 
