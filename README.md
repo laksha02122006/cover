@@ -109,7 +109,7 @@ Publish the website in the LocalHost.
     <div>
       <div class="edition">First Edition</div>
       <div class="line"></div>
-      <div class="author">Harshavarthini</div>
+      <div class="author">VB.Laksha</div>
     </div>
   </div>
 </body>
